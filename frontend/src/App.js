@@ -71,7 +71,7 @@ function App () {
         </section>
 
         <section className='enjoyBenefits'>
-          <img alt='smiley Logo' src='/images/SmileyLogo.png'></img>
+          <img alt='smiley Logo' src='/images/smileyLogo.png'></img>
           <h5>Enjoy ur benefits</h5>
           <p>
             Get set up with the help of a trusted freelancer or agency from the
