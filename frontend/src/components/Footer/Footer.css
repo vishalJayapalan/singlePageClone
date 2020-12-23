@@ -1,0 +1,42 @@
+.footer{
+  position: absolute;
+width: 1210px;
+height: 133px;
+left: 38px;
+top: 2574px;
+
+background: #FFFFFF;
+}
+
+.footerLogo{
+  position: absolute;
+width: 87px;
+height: 53px;
+left: 79px;
+top: 47px;
+}
+
+
+.twitterLogo{
+  position: absolute;
+left: 629px;
+top: 47px;
+
+/* right: 9.37%; */
+/* bottom: 16.99%; */
+}
+
+.facebookLogo{
+  top: 47px;
+  position: absolute;
+  left: 690px
+}
+.author{
+  top: 47px;
+  position: absolute;
+  left: 990px;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+}

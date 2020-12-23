@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 import './App.css'
 
@@ -103,6 +104,7 @@ function App () {
           <button className='subscribeButton'>Get Access</button>
         </section>
       </section>
+      <Footer />
     </div>
   )
 }
