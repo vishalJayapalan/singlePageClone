@@ -405,17 +405,24 @@ line-height: 21px;
 
 .subscribeContainer{
   position: absolute;
-width: 1280px;
+width: 100vw;
 height: 166px;
 left: 0px;
 top: 2373px;
-padding: 0 5% 0 5% ;
+/* padding: 0 5% 0 5% ; */
 background: #C162E5;
+}
+
+@media screen and (max-width: 700px) {
+  .subscribeContainer {
+    width: 1280px;
+  }
 }
 
 .subscribeContainer h5{
   color: white;
   font-style: normal;
+  padding-left: 4%;
 font-weight: bold;
 font-size: 22px;
 line-height: 18px;
@@ -423,7 +430,7 @@ line-height: 18px;
 
 .subscribeInputContainer{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: white;
 }
 .subscribeInputContainer input{

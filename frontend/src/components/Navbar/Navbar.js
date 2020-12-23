@@ -5,7 +5,7 @@ export default function Navbar () {
   return (
     <header className='header'>
       <section className='logoContainer'>
-        <img src='/images/Logo.png'></img>
+        <img alt='logo' src='/images/Logo.png'></img>
       </section>
       {/* <section className='navbarListContainer'> */}
       <ul className='navbarListContainer'>

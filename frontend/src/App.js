@@ -8,9 +8,13 @@ function App () {
   return (
     <div className='App'>
       <Navbar />
-      <img className='phoneBackground' src='/images/PhoneBackGround.png'></img>
-      <img className='phone1' src='/images/PhoneImg1.png'></img>
-      <img className='phone2' src='/images/PhoneImg2.png'></img>
+      <img
+        className='phoneBackground'
+        alt='phoneBackground'
+        src='/images/PhoneBackGround.png'
+      ></img>
+      <img className='phone1' alt='phone 1' src='/images/PhoneImg1.png'></img>
+      <img className='phone2' alt='phone 2' src='/images/PhoneImg2.png'></img>
       <section className='mobileAppLanding'>
         <h3>Essential Mobile App Landing for Workspaces</h3>
         <p>
@@ -30,8 +34,16 @@ function App () {
           Explore our landing Page demos on different kind of topics. More Demos
           are coming soon.
         </p>
-        <img className='websiteLanding' src='/images/WebsiteLanding.png'></img>
-        <img className='appLanding' src='/images/AppModernLanding.png'></img>
+        <img
+          className='websiteLanding'
+          alt='Website Landing'
+          src='/images/WebsiteLanding.png'
+        ></img>
+        <img
+          className='appLanding'
+          alt='App Modern Landing'
+          src='/images/AppModernLanding.png'
+        ></img>
       </section>
       <hr className='hrAfterExplore'></hr>
       <section className='businessJourney'>
@@ -41,7 +53,7 @@ function App () {
           to start, run, and grow your business.
         </p>
         <section className='businessOnline'>
-          <img src='/images/Globe.png'></img>
+          <img alt='globe in pink background' src='/images/Globe.png'></img>
           <h5>Move Your Business Online</h5>
           <p>
             Create a business, whether you’ve got a fresh idea or are looking
@@ -50,7 +62,7 @@ function App () {
         </section>
 
         <section className='switchSoprano'>
-          <img src='/images/PeopleLogo.png'></img>
+          <img alt='2 people logo' src='/images/PeopleLogo.png'></img>
           <h5>Switch to Soprano</h5>
           <p>
             Bring your business to Soprano, no matter which ecommerce platform
@@ -59,7 +71,7 @@ function App () {
         </section>
 
         <section className='enjoyBenefits'>
-          <img src='/images/SmileyLogo.png'></img>
+          <img alt='smiley Logo' src='/images/SmileyLogo.png'></img>
           <h5>Enjoy ur benefits</h5>
           <p>
             Get set up with the help of a trusted freelancer or agency from the
@@ -72,7 +84,7 @@ function App () {
         <h4 className='clientH4'>What Clients say about our product</h4>
         <div className='clientBorder1'>
           <div className='clientNameContainer'>
-            <img src='/images/Client1.png'></img>
+            <img alt='client1' src='/images/Client1.png'></img>
             <h4 className='client1h4'>Allen Jones</h4>
           </div>
           <p>
@@ -83,7 +95,7 @@ function App () {
         </div>
         <div className='clientBorder2'>
           <div className='clientNameContainer'>
-            <img src='/images/Client2.png'></img>
+            <img alt='client2' src='/images/Client2.png'></img>
             <h4 className='client2h4'>Allen Jones</h4>
           </div>
           <p>
