@@ -68,15 +68,40 @@ function App () {
       </section>
       <hr className='hrAfterBusinessJourney'></hr>
       <section className='clientSay'>
-        <h4>What Clients say about our product</h4>
+        <h4 className='clientH4'>What Clients say about our product</h4>
         <div className='clientBorder1'>
-          <img src='/images/Client1.png'></img>
-          <h4>Allen Jones</h4>
+          <div className='clientNameContainer'>
+            <img src='/images/Client1.png'></img>
+            <h4 className='client1h4'>Allen Jones</h4>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
+            tempor incididunt labore dolore features that Lorem ipsum dolor sit
+            amet consectetur.
+          </p>
         </div>
         <div className='clientBorder2'>
-          <img src='/images/Client2.png'></img>
-          <h4>Allen Jones</h4>
+          <div className='clientNameContainer'>
+            <img src='/images/Client2.png'></img>
+            <h4 className='client2h4'>Allen Jones</h4>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
+            tempor incididunt labore dolore features that Lorem ipsum dolor sit
+            amet consectetur.
+          </p>
         </div>
+      </section>
+      <section className='subscribeContainer'>
+        <h5>Subscribe Our newsletter</h5>
+        <section className='subscribeInputContainer'>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
+            tempor incididunt labore dolore
+          </p>
+          <input placeholder='Email Address'></input>
+          <button className='subscribeButton'>Get Access</button>
+        </section>
       </section>
     </div>
   )

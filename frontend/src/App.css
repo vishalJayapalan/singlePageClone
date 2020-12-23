@@ -291,7 +291,12 @@ top: 1941px;
 border: 3px solid #E4E4E4;
 }
 
-.clientSay h4{
+.clientNameContainer{
+  display: flex;
+  align-items: center;
+}
+
+.clientH4{
   position: absolute;
   width: 366px;
   height: 30px;
@@ -318,25 +323,36 @@ border-radius: 15px;
 }
 
 .clientBorder1 img{
-  position: absolute;
+  /* position: absolute; */
 width: 100px;
 height: 100px;
-left: 142px;
-top: 2098px;
+margin-left: 20%;
+margin-top: 5%;
+/* left: 142px; */
+/* top: 2098px; */
 }
 
-.clientBorder1 h4{
-  position: absolute;
+.client1h4{
 width: 148px;
 height: 38px;
-left: 272px;
-top: 2126px;
-
-font-family: Poppins;
+margin-left: 10%;
 font-style: normal;
 font-weight: bold;
 font-size: 25px;
 line-height: 37px;
+}
+.clientBorder1 p{
+  /* position: absolute; */
+width: 412px;
+height: 63px;
+/* left: 142px; */
+/* top: 2229px; */
+margin-left: 20%;
+
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
 }
 
 .clientBorder2{
@@ -353,9 +369,80 @@ border-radius: 15px;
 }
 
 .clientBorder2 img{
-  position: absolute;
-width: 100px;
+  width: 100px;
 height: 100px;
-left: 727px;
-top: 2096px;
+margin-left: 20%;
+margin-top: 5%;
 }
+
+.client2h4{
+  /* position: absolute; */
+  width: 148px;
+  height: 38px;
+  /* left: 863px; */
+  /* top: 2129px; */
+margin-left: 10%;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+.clientBorder2 p{
+    /* position: absolute; */
+width: 412px;
+height: 63px;
+/* left: 142px; */
+/* top: 2229px; */
+margin-left: 20%;
+
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+}
+
+.subscribeContainer{
+  position: absolute;
+width: 1280px;
+height: 166px;
+left: 0px;
+top: 2373px;
+padding: 0 5% 0 5% ;
+background: #C162E5;
+}
+
+.subscribeContainer h5{
+  color: white;
+  font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 18px;
+}
+
+.subscribeInputContainer{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.subscribeInputContainer input{
+  background-color:#C162E5 ;
+  border: none;
+  outline: none;
+}
+
+.subscribeInputContainer input::placeholder{
+  color: white;
+}
+
+.subscribeButton{
+  width: 142px;
+height: 40px;
+border: none;
+outline: none;
+color: #C162E5;
+background: #FFFFFF;
+border-radius: 25px;
+}
+
