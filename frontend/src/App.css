@@ -1,0 +1,36 @@
+.phoneBackground{
+  position: absolute;
+  width: 100vw;
+  height: 24.875em;
+  left: 0px;
+  top: 7.5625em;
+}
+
+.phone1{
+  position: absolute;
+  width: 213.88px;
+  height: 438.58px;
+  left: 457px;
+  top: 213px;
+}
+
+.phone2{
+  position: absolute;
+  width: 203.87px;
+  height: 397.42px;
+  left: 645.13px;
+  top: 294.58px;
+}
+
+h3{
+  position: absolute;
+width: 711px;
+height: 49px;
+left: 302px;
+top: 723px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+}

@@ -1,0 +1,42 @@
+.header{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 5.3125em;
+  left: 0px;
+  top: -2px;
+  background: #FFFFFF;
+}
+
+.logoContainer img{
+  position: absolute;
+  width: 5.43;
+  height: 3.31em;
+  left: 5.5em;
+  top: .625em;
+}
+
+
+.navbarListContainer{
+  position: absolute;
+  display: flex;
+  left: 47.75em;
+  top: 2.0625em;
+  list-style-type: none;
+  white-space:nowrap;
+}
+
+.list{
+  margin-right: 2.81em;
+  height: 1.125em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.selected{
+  color: #C162E5;
+}
