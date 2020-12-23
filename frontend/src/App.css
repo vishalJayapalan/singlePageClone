@@ -6,6 +6,12 @@
   top: 7.5625em;
 }
 
+@media screen and (max-width: 700px) {
+  .phoneBackground {
+    width: auto;
+  }
+}
+
 .phone1{
   position: absolute;
   width: 213.88px;
@@ -22,7 +28,7 @@
   top: 294.58px;
 }
 
-h3{
+.mobileAppLanding h3{
   position: absolute;
 width: 711px;
 height: 49px;
@@ -33,4 +39,323 @@ font-style: normal;
 font-weight: 500;
 font-size: 30px;
 line-height: 45px;
+}
+
+.mobileAppLanding p{
+  position: absolute;
+width: 618px;
+height: 42px;
+left: 339px;
+top: 787px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: rgba(0, 0, 0, 0.65);
+}
+
+.mobileAppLanding button{
+  position: absolute;
+width: 159px;
+height: 38px;
+left: 556px;
+top: 893px;
+border: none;
+outline: none;
+background: #C162E5;
+border-radius: 25px;
+color: white;
+}
+
+
+.hrAfterMobile{
+  position: absolute;
+width: 884px;
+height: 0px;
+left: 200px;
+top: 961px;
+border: 3px solid #E4E4E4;
+
+}
+
+.explore h4{
+  position: absolute;
+width: 190px;
+height: 30px;
+left: 551px;
+top: 985px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+.explore p{
+  position: absolute;
+width: 627px;
+height: 21px;
+left: 331px;
+top: 1030px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.websiteLanding{
+  position: absolute;
+  width: 494px;
+  height: 261px;
+  left: 101px;
+  top: 1086px;
+  
+  border-radius: 25px;
+}
+
+.appLanding{
+  position: absolute;
+  width: 494px;
+  height: 261px;
+  left: 651px;
+  top: 1086px;
+  
+  border-radius: 25px;
+}
+
+.hrAfterExplore{
+  position: absolute;
+width: 884px;
+height: 0px;
+left: 201px;
+top: 1447px;
+
+border: 3px solid #E4E4E4;
+}
+
+.businessJourney h4{
+  position: absolute;
+width: 417px;
+height: 30px;
+left: 463px;
+top: 1476px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+}
+
+.businessJourney p{
+  position: absolute;
+width: 724px;
+height: 21px;
+left: 281px;
+top: 1513px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.businessOnline img{
+  position: absolute;
+left: 0%;
+right: 0%;
+left: 325px;
+top: 1609px;
+bottom: 1.56%;
+}
+
+.businessOnline h5{
+  position: absolute;
+  width: 193px;
+  height: 21px;
+  left: 286px;
+  top: 1719px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.businessOnline p{
+  position: absolute;
+width: 186px;
+height: 45px;
+left: 287px;
+top: 1753px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+
+color: rgba(0, 0, 0, 0.5)
+}
+
+.switchSoprano img{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 1609px;
+  left: 574px;
+  bottom: 6.25%;
+}
+
+.switchSoprano h5{
+  position: absolute;
+  width: 130px;
+  height: 21px;
+  left: 560px;
+  top: 1719px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.switchSoprano p{
+  position: absolute;
+  width: 203px;
+  height: 45px;
+  left: 560px;
+  top: 1753px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.enjoyBenefits img{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 1609px;
+  left: 817px;
+  bottom: 6.25%;
+}
+
+.enjoyBenefits h5{
+  position: absolute;
+width: 120px;
+height: 21px;
+left: 817px;
+top: 1719px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+}
+
+.enjoyBenefits p{
+  position: absolute;
+width: 194px;
+height: 45px;
+left: 817px;
+top: 1753px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.hrAfterBusinessJourney{
+  position: absolute;
+width: 884px;
+height: 0px;
+left: 201px;
+top: 1941px;
+
+border: 3px solid #E4E4E4;
+}
+
+.clientSay h4{
+  position: absolute;
+  width: 366px;
+  height: 30px;
+  left: 463px;
+  top: 1989px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.clientBorder1{
+  position: absolute;
+width: 553px;
+height: 273px;
+left: 72px;
+top: 2061px;
+
+/* background: #FFFFFF; */
+border: 1px solid #C162E5;
+box-sizing: border-box;
+box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.clientBorder1 img{
+  position: absolute;
+width: 100px;
+height: 100px;
+left: 142px;
+top: 2098px;
+}
+
+.clientBorder1 h4{
+  position: absolute;
+width: 148px;
+height: 38px;
+left: 272px;
+top: 2126px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 37px;
+}
+
+.clientBorder2{
+  position: absolute;
+width: 553px;
+height: 273px;
+left: 664px;
+top: 2058px;
+
+background: #FFFFFF;
+border: 1px solid #C162E5;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.clientBorder2 img{
+  position: absolute;
+width: 100px;
+height: 100px;
+left: 727px;
+top: 2096px;
 }
