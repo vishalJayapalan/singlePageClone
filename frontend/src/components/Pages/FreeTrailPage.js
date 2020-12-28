@@ -4,7 +4,7 @@ import TrailContent from '../TrailContent/TrailContent'
 // import Footer from '../Footer/Footer'
 
 export default function FreeTrailPage () {
-  const [trailContents, setTrailContents] = useState([
+  const [trailContents] = useState([
     {
       id: 1,
       heading: 'Prepaire to bring your business online',

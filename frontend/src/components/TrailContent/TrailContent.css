@@ -4,12 +4,17 @@
   width: 90vw;
   height: 10em;
   padding: 1%;
+}
 
+@media screen and (max-width: 700px) {
+  .trailContentContainer {
+    width: auto;
+  }
 }
 
 .trailContentHeadingContainer{
   min-width: 17em;
-  max-width: 18em;
+  max-width: 17em;
   margin-left: 10em;
 }
 
@@ -28,12 +33,20 @@
 .trailContentSubHeadingsContainer{
   display: flex;
   overflow-x: auto;
-  width: 60vw;
+  /* width: 60vw; */
   margin-left: 5em;
+  width: 100%;
 }
+
+/* @media screen and (max-width: 700px) {
+  .trailContentSubHeadingsContainer {
+    width: auto;
+  }
+} */
 
 .trailContentSubHeading{
   min-width: 12em;
+  max-width: 12em;
   border: solid 1px lightgray;
   border-radius: 2.5px;
   display: flex;
