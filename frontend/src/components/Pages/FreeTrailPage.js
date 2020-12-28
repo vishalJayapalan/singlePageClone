@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar'
 import TrailContent from '../TrailContent/TrailContent'
-// import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer'
 
 export default function FreeTrailPage () {
   const [trailContents] = useState([
@@ -62,7 +62,7 @@ export default function FreeTrailPage () {
           <TrailContent key={trailContent.id} trailContent={trailContent} />
         ))}
       </section>
-      {/* <Footer /> */}
+      <Footer page={'freetailContent'} />
     </div>
   )
 }

@@ -5,32 +5,36 @@
   left: 38px;
   top: 2574px;
   background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footerLogo{
-  position: absolute;
+  /* position: absolute; */
   width: 87px;
   height: 53px;
-  left: 79px;
-  top: 47px;
+  /* left: 79px;
+  top: 47px; */
 }
 
 
 .twitterLogo{
-  position: absolute;
-  left: 629px;
-  top: 47px;
+  /* position: absolute; */
+  /* left: 629px;
+  top: 47px; */
 }
 
 .facebookLogo{
-  top: 47px;
-  position: absolute;
-  left: 690px
+  /* top: 47px; */
+  /* position: absolute; */
+  margin-left: 1em;
+  /* left: 690px */
 }
 .author{
-  top: 47px;
-  position: absolute;
-  left: 990px;
+  /* top: 47px; */
+  /* position: absolute; */
+  /* left: 990px; */
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
