@@ -50,7 +50,6 @@
   left: 339px;
   top: 787px;
 
-  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -504,3 +503,7 @@
   border-radius: 25px;
 }
 
+.trailContentsContainer{
+  margin-top: 6.3125em;
+  
+}
