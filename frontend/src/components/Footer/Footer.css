@@ -6,7 +6,7 @@
   top: 2574px;
   background: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 

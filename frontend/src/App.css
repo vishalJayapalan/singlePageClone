@@ -79,6 +79,7 @@
   left: 200px;
   top: 961px;
   border: 3px solid #E4E4E4;
+  background-color: #E4E4E4 ;
 
 }
 
@@ -164,6 +165,7 @@
   height: 0px;
   left: 201px;
   top: 1447px;
+  background-color: #E4E4E4 ;
 
   border: 3px solid #E4E4E4;
 }
@@ -337,7 +339,7 @@
   height: 0px;
   left: 201px;
   top: 1941px;
-
+  background-color: #E4E4E4 ;
   border: 3px solid #E4E4E4;
 }
 
@@ -459,7 +461,7 @@
   height: 166px;
   left: 0px;
   top: 2373px;
-  /* padding: 0 5% 0 5% ; */
+  padding: 3em 5% 0 5% ;
   background: #C162E5;
 }
 
@@ -503,7 +505,13 @@
   border-radius: 25px;
 }
 
-.trailContentsContainer{
+/* .trailContentsContainer{
   margin-top: 6.3125em;
-  
+  width: 90vw;
 }
+
+@media screen and (max-width: 700px) {
+  .trailContentsContainer {
+    width: auto;
+  }
+} */
