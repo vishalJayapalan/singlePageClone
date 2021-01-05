@@ -1,0 +1,32 @@
+.gridOuterContainer{
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridsContainer{
+  min-width: 20em;
+  min-height: 20em;
+  max-width: 20em;
+  max-height: 20em;
+  border: 2px solid black;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gridRowContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridContainer{
+  width: 100%;
+}
+
+.bottomLine{
+  border: 2px solid black;
+  width: 100%;
+}
