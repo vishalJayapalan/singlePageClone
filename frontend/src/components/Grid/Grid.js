@@ -28,7 +28,7 @@ export default function Grid () {
       {arr.length > 0 && (
         <div className='gridsContainer'>
           {arr.map((array, index) => (
-            <GridRow key={index} row={array} />
+            <GridRow key={index} row={array} input={input} />
           ))}
         </div>
       )}
