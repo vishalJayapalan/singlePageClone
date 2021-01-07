@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 export default function Navbar () {
@@ -9,11 +10,33 @@ export default function Navbar () {
       </section>
       {/* <section className='navbarListContainer'> */}
       <ul className='navbarListContainer'>
-        <li className='selected list'>Home</li>
-        <li className='list'>Products</li>
-        <li className='list'>About Us</li>
-        <li className='list'>Demos</li>
-        <li className='list'>Contact Us</li>
+        <Link
+          style={{ textDecoration: 'none' }}
+          to='/'
+          className='selected list'
+        >
+          Home
+        </Link>
+        <Link
+          style={{ textDecoration: 'none' }}
+          to='/products'
+          className='list'
+        >
+          Products
+        </Link>
+        <Link style={{ textDecoration: 'none' }} to='/aboutus' className='list'>
+          About Us
+        </Link>
+        <Link style={{ textDecoration: 'none' }} to='demos' className='list'>
+          Demos
+        </Link>
+        <Link
+          style={{ textDecoration: 'none' }}
+          to='contactus'
+          className='list'
+        >
+          Contact Us
+        </Link>
       </ul>
       {/* </section> */}
     </header>

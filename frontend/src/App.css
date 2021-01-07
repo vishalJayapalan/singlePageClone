@@ -474,7 +474,7 @@
 .subscribeContainer h5{
   color: white;
   font-style: normal;
-  padding-left: 4%;
+  /* padding-left: 4%; */
   font-weight: bold;
   font-size: 22px;
   line-height: 18px;
@@ -482,8 +482,9 @@
 
 .subscribeInputContainer{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
+  align-items: center;
 }
 .subscribeInputContainer input{
   background-color:#C162E5 ;
@@ -512,14 +513,3 @@
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
 }
-
-/* .trailContentsContainer{
-  margin-top: 6.3125em;
-  width: 90vw;
-}
-
-@media screen and (max-width: 700px) {
-  .trailContentsContainer {
-    width: auto;
-  }
-} */

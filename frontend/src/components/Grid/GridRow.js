@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function GridRow ({ row, input }) {
-  console.log(row)
   return (
     <div
       className='gridRowContainer'

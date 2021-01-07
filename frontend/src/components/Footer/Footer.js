@@ -20,7 +20,7 @@ export default function Footer ({ page }) {
           src='/images/Facebook.png'
         ></img>
       </div>
-      <p className='author'>Developed by vishalJayapalan</p>
+      <span className='author'>Developed by vishalJayapalan</span>
     </footer>
   )
 }

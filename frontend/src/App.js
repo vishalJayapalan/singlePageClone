@@ -12,6 +12,10 @@ function App () {
       <Router>
         <Switch>
           <Route path='/' exact component={HomePage} />
+          <Route path='/products' exact component={HomePage} />
+          <Route path='/demos' exact component={HomePage} />
+          <Route path='/contactus' exact component={HomePage} />
+          <Route path='/aboutus' exact component={HomePage} />
           <Route Path='/trailpage' component={FreeTrailPage} />
         </Switch>
       </Router>

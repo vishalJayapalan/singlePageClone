@@ -51,10 +51,10 @@ export default function HomePage () {
       <section className='subscribeContainer'>
         <h5>Subscribe Our newsletter</h5>
         <section className='subscribeInputContainer'>
-          <p>
+          <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
             tempor incididunt labore dolore
-          </p>
+          </span>
           <input placeholder='Email Address'></input>
           <button className='subscribeButton'>Get Access</button>
         </section>

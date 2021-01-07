@@ -4,7 +4,6 @@ import './Grid.css'
 
 export default function Grid () {
   const [input, setInput] = useState(0)
-  // let input = 5
   let arr = []
   for (let i = 0; i < input; i++) {
     arr[i] = []
@@ -16,22 +15,29 @@ export default function Grid () {
       }
     }
   }
-  // console.log(arr)
-  // arr.forEach(array => console.log(array))
 
   return (
     <div className='gridOuterContainer'>
       <input
         placeholder='Enter the grid count'
-        onChange={e => setInput(e.target.value)}
+        value={input}
+        onChange={e => {
+          if (
+            e.target.value === '' ||
+            (Number(e.target.value) && Number(e.target.value) <= 10)
+          ) {
+            setInput(e.target.value)
+          }
+        }}
       />
-      {arr.length > 0 && (
-        <div className='gridsContainer'>
-          {arr.map((array, index) => (
+      {/* {arr.length > 0 && ( */}
+      <div className='gridsContainer'>
+        {arr.length > 0 &&
+          arr.map((array, index) => (
             <GridRow key={index} row={array} input={input} />
           ))}
-        </div>
-      )}
+      </div>
+      {/* )} */}
     </div>
   )
 }
