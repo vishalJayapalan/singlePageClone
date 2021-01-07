@@ -461,8 +461,29 @@
   height: 166px;
   left: 0px;
   top: 2373px;
-  padding: 3em 5% 0 5% ;
+  padding: 3em 12.5% 0 7.5% ;
   background: #C162E5;
+}
+.subscribeSpanInputs{
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribeSpan{
+  padding-top: 1em;
+  max-width: 25em;
+}
+
+.subscribeInputInnerContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputUnderline{
+  border: 1px solid white;
+  margin-top: 1em;
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {

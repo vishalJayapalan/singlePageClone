@@ -6,10 +6,10 @@ import ExploreDemos from '../ExploreDemos/ExploreDemos'
 import BusinessJourney from '../BusinessJourney/BusinessJourney'
 import Footer from '../Footer/Footer'
 
-export default function HomePage () {
+export default function HomePage ({ location }) {
   return (
     <div className='homePage'>
-      <Navbar />
+      <Navbar pathName={location.pathname.slice(1)} />
       <img
         className='phoneBackground'
         alt='phoneBackground'
@@ -51,12 +51,17 @@ export default function HomePage () {
       <section className='subscribeContainer'>
         <h5>Subscribe Our newsletter</h5>
         <section className='subscribeInputContainer'>
-          <span>
+          <span className='subscribeSpan'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
             tempor incididunt labore dolore
           </span>
-          <input placeholder='Email Address'></input>
-          <button className='subscribeButton'>Get Access</button>
+          <div className='subscribeSpanInputs'>
+            <div className='subscribeInputInnerContainer'>
+              <input placeholder='Email Address'></input>
+              <div className='inputUnderline'></div>
+            </div>
+            <button className='subscribeButton'>Get Access</button>
+          </div>
         </section>
       </section>
       <Footer />

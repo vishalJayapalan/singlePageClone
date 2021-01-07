@@ -1,17 +1,20 @@
 .footer{
   position: absolute;
-  width: 1210px;
+  width: 1230px;
   height: 133px;
-  left: 38px;
+  /* left: 38px; */
   top: 2574px;
   background: #FFFFFF;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 3em;
+  margin-left: 2em;
 }
 
 .footerLogo{
   /* position: absolute; */
+  margin-left: 3em;
   width: 87px;
   height: 53px;
   /* left: 79px;
@@ -25,11 +28,24 @@
   top: 47px; */
 }
 
+.logosContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 10em;
+}
+
 .facebookLogo{
   /* top: 47px; */
   /* position: absolute; */
-  margin-left: 1em;
+  /* margin-left: 1em; */
   /* left: 690px */
+}
+
+.fa-instagram-square{
+  color: #C162E5;
+  font-size: 200%;
+  /* margin-left: 1em; */
+  /* align-self: center; */
 }
 .author{
   /* top: 47px; */

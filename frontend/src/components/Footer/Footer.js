@@ -8,7 +8,7 @@ export default function Footer ({ page }) {
       style={{ position: page ? 'static' : 'absolute' }}
     >
       <img alt='Logo' className='footerLogo' src='/images/Logo.png'></img>
-      <div>
+      <div className='logosContainer'>
         <img
           alt='twitterIcon'
           className='twitterLogo'
@@ -19,6 +19,7 @@ export default function Footer ({ page }) {
           className='facebookLogo'
           src='/images/Facebook.png'
         ></img>
+        <i className='fab fa-instagram-square'></i>
       </div>
       <span className='author'>Developed by vishalJayapalan</span>
     </footer>

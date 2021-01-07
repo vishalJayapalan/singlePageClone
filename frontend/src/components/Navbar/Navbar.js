@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-export default function Navbar () {
+export default function Navbar ({ pathName }) {
+  console.log(pathName)
   return (
     <header className='header'>
       <section className='logoContainer'>
@@ -13,27 +14,35 @@ export default function Navbar () {
         <Link
           style={{ textDecoration: 'none' }}
           to='/'
-          className='selected list'
+          className={`${pathName === '' ? 'selected' : ''} list`}
         >
           Home
         </Link>
         <Link
           style={{ textDecoration: 'none' }}
           to='/products'
-          className='list'
+          className={`${pathName === 'products' ? 'selected' : ''} list`}
         >
           Products
         </Link>
-        <Link style={{ textDecoration: 'none' }} to='/aboutus' className='list'>
+        <Link
+          style={{ textDecoration: 'none' }}
+          to='/aboutus'
+          className={`${pathName === 'aboutus' ? 'selected' : ''} list`}
+        >
           About Us
         </Link>
-        <Link style={{ textDecoration: 'none' }} to='demos' className='list'>
+        <Link
+          style={{ textDecoration: 'none' }}
+          to='demos'
+          className={`${pathName === 'demos' ? 'selected' : ''} list`}
+        >
           Demos
         </Link>
         <Link
           style={{ textDecoration: 'none' }}
           to='contactus'
-          className='list'
+          className={`${pathName === 'contactus' ? 'selected' : ''} list`}
         >
           Contact Us
         </Link>
