@@ -57,7 +57,10 @@ export default function HomePage ({ location }) {
           </span>
           <div className='subscribeSpanInputs'>
             <div className='subscribeInputInnerContainer'>
-              <input placeholder='Email Address'></input>
+              <input
+                style={{ color: 'white' }}
+                placeholder='Email Address'
+              ></input>
               <div className='inputUnderline'></div>
             </div>
             <button className='subscribeButton'>Get Access</button>
