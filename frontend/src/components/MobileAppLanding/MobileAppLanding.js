@@ -9,8 +9,8 @@ export default function MobileAppLanding () {
         information about your product. Start increasing your user base upon the
         launch of your product
       </p>
-      <button>
-        Explore Demos
+      <button style={{ alignItems: 'center' }}>
+        Explore Demos <i className='fas fa-arrow-right'></i>
         {/* <img className='whiteArrow' src='/images/WhiteRightArrow.png'></img> */}
       </button>
     </section>
