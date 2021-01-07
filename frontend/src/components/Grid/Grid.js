@@ -3,7 +3,7 @@ import GridRow from './GridRow'
 import './Grid.css'
 
 export default function Grid () {
-  const [input, setInput] = useState(0)
+  const [input, setInput] = useState('')
   let arr = []
   for (let i = 0; i < input; i++) {
     arr[i] = []
