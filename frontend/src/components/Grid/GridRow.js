@@ -17,8 +17,6 @@ export default function GridRow ({ row, input }) {
           >
             {col}
           </span>
-          {/* <hr className='' /> */}
-          {/* <hr className='bottomLine' style={{ marginTop: `calc(100 -.5px)` }} /> */}
         </div>
       ))}
     </div>
