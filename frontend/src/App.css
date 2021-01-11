@@ -127,7 +127,7 @@
 }
 
 .carousel-item{
-  display: none;
+  /* display: none; */
   justify-content: space-around;
 }
 
